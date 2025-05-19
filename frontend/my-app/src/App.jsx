@@ -7,6 +7,7 @@ import CodeExplainer from './components/codeExplainer'
 import Features from './components/features'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import About from './components/about'
 import './App.css'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Hero />
         <HowItWorks />
         <Features />
-        
+        <About />
         <Contact />
         <Footer />
     </>
