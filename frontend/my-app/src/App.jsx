@@ -5,6 +5,8 @@ import Hero from './components/hero'
 import HowItWorks from './components/HowItWorks'
 import CodeExplainer from './components/codeExplainer'
 import Features from './components/features'
+import Contact from './components/contact'
+import Footer from './components/footer'
 import './App.css'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <HowItWorks />
         <Features />
         
+        <Contact />
+        <Footer />
     </>
   )
 }
