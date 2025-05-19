@@ -1,0 +1,65 @@
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: radial-gradient(circle at top left, #1a1a2e, #0f0f0f);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 800px;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #7f5af0, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sparkle-icon {
+  color: #7f5af0;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+
+.gemini {
+  color: #7f5af0;
+  font-weight: bold;
+}
+
+.hero-btn {
+  padding: 12px 28px;
+  background: #7f5af0;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 20px rgba(127, 90, 240, 0.3);
+}
+
+.hero-btn:hover {
+  background: #9e89f7;
+}
